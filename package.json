@@ -31,8 +31,15 @@
   "build": {
     "appId": "com.3d-printer-status",
     "productName": "3D Printer Status",
+    "snap": {
+      "publish": [
+        "github"
+      ]
+    },
     "publish": [
-      "github"
+      {
+        "provider": "github"
+      }
     ]
   }
 }
